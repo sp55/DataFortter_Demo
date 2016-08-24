@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847C40601D6D4263004B3F6B /* NSDate+NSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C405F1D6D4263004B3F6B /* NSDate+NSCalendar.m */; };
 		84F92EB31D52E2DB00E30DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F92EB21D52E2DB00E30DCF /* main.m */; };
 		84F92EB61D52E2DB00E30DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F92EB51D52E2DB00E30DCF /* AppDelegate.m */; };
 		84F92EB91D52E2DB00E30DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F92EB81D52E2DB00E30DCF /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847C405E1D6D4263004B3F6B /* NSDate+NSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSCalendar.h"; sourceTree = "<group>"; };
+		847C405F1D6D4263004B3F6B /* NSDate+NSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSCalendar.m"; sourceTree = "<group>"; };
 		84F92EAE1D52E2DB00E30DCF /* DataFortter_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFortter_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F92EB21D52E2DB00E30DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F92EB41D52E2DB00E30DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				84F92EB81D52E2DB00E30DCF /* ViewController.m */,
 				84F92EE41D52E2FA00E30DCF /* DataFortterHelper.h */,
 				84F92EE51D52E2FA00E30DCF /* DataFortterHelper.m */,
+				847C405E1D6D4263004B3F6B /* NSDate+NSCalendar.h */,
+				847C405F1D6D4263004B3F6B /* NSDate+NSCalendar.m */,
 				84F92EBA1D52E2DB00E30DCF /* Main.storyboard */,
 				84F92EBD1D52E2DB00E30DCF /* Assets.xcassets */,
 				84F92EBF1D52E2DB00E30DCF /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F92EB91D52E2DB00E30DCF /* ViewController.m in Sources */,
+				847C40601D6D4263004B3F6B /* NSDate+NSCalendar.m in Sources */,
 				84F92EB61D52E2DB00E30DCF /* AppDelegate.m in Sources */,
 				84F92EE61D52E2FA00E30DCF /* DataFortterHelper.m in Sources */,
 				84F92EB31D52E2DB00E30DCF /* main.m in Sources */,
@@ -423,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataFortter_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.DataFortter-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataFortter_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.DataFortter-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +513,7 @@
 				84F92EDD1D52E2DB00E30DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F92EDE1D52E2DB00E30DCF /* Build configuration list for PBXNativeTarget "DataFortter_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				84F92EE01D52E2DB00E30DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F92EE11D52E2DB00E30DCF /* Build configuration list for PBXNativeTarget "DataFortter_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				84F92EE31D52E2DB00E30DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
